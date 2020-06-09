@@ -11,12 +11,14 @@ print()
 for x in range(0,a):
   if a < 0 :
     print("Not possible")
+    break
   elif a > 0:
     print("group " + str(d) + ": ")
     print("a = " + str(a))
     print("b = " + str(b) + "\n")
   if a**2+b**2 == c:
     print("Answer is group " + str(d))
+    break
   b +=1
   a -=1
   d +=1
